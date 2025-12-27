@@ -109,7 +109,7 @@ Code review.
               (e.currentTarget.style.transform = "translateY(0)")
             }
           >
-            <h3 style={{ color: "#fff5f8ff" }}>{service.title}</h3>
+            <h3 style={{ color: "#edececff" }}>{service.title}</h3>
             <p style={{ opacity: 0.8 }}>{service.short}</p>
           </div>
         ))}
