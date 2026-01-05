@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 const Photo = () => {
   const photos = [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_LUNJngOd30HT7IPSUAOZa9HrisJ_6HQQbQ&s",
@@ -45,6 +46,15 @@ const Photo = () => {
           />
         ))}
       </div>
+
+
+
+      <>
+  <div style={{ padding: "60px 20px", textAlign: "center" }}>
+  </div>
+  <Footer />
+</>
+
     </div>
   );
 };

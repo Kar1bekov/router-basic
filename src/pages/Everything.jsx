@@ -8,7 +8,7 @@ const Everything = () => {
       <Link to="/contacts" style={linkStyle}>О нас</Link>
       <Link to="/photo" style={linkStyle}>Фотографии</Link>
       <Link to="/services" style={linkStyle}>Услуги</Link>
-      <Link to="/footer" style={linkStyle}>Меню</Link>
+
     </nav>
   );
 };

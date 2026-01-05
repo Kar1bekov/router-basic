@@ -1,9 +1,10 @@
+import Footer from "./Footer";
 const Contacts = () => {
   return (
     <div style={{ padding: "60px", textAlign: "center" }}>
       <h1>Контакты</h1>
 
-      <p style={{ fontSize: "18px" }}>📍 Ул Жомарата Боконбаева 162</p>
+      <p style={{ fontSize: "18px" }}>📍 Ул Жоомарата Боконбаева 162</p>
       <p style={{ fontSize: "18px" }}>📧 itacademy@gmail.com</p>
       <p style={{ fontSize: "18px" }}>💬 Связаться с нами</p>
 
@@ -68,7 +69,16 @@ const Contacts = () => {
       <p style={{ marginTop: "30px", opacity: 0.7 }}>
         Мы всегда открыты для связи
       </p>
+
+
+<>
+  <div style={{ padding: "60px 20px", textAlign: "center" }}>
+  </div>
+  <Footer />
+</>
+
     </div>
+
   );
 };
 

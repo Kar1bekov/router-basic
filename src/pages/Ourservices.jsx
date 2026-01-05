@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./Footer";
 
 const OurServices = () => {
   const [activeService, setActiveService] = useState(null);
@@ -171,6 +172,14 @@ Code review.
           </div>
         </div>
       )}
+
+
+      <>
+  <div style={{ padding: "60px 20px", textAlign: "center" }}>
+  </div>
+  <Footer />
+</>
+
     </div>
   );
 };

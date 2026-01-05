@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Everything from './pages/Everything';
 import Photo from './pages/Photo';
 import OurServices from './pages/Ourservices';
-import Footer from './pages/Footer';
+
 
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
         <Route path='/home' element={<Home/>}/>
         <Route path='/photo' element={<Photo/>}/>
         <Route path="/services" element={<OurServices />} />
-        <Route path='/footer' element={<Footer/>}/>
       </Routes>
     </div>
   );

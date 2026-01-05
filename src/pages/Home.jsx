@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import Footer from "./Footer";
 const Home = () => {
   const [started, setStarted] = useState(false);
   const [text, setText] = useState("");
@@ -63,6 +63,15 @@ const Home = () => {
       <p style={{ opacity: 0.8 }}>
         Frontend • Backend • React • Проекты
       </p>
+      
+<>
+  <div style={{ padding: "60px 20px", textAlign: "center" }}>
+  </div>
+  <Footer />
+</>
+
+
+
     </div>
   );
 };
