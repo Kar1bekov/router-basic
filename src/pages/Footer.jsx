@@ -7,9 +7,10 @@ const Footer = () => {
         textAlign: "center",
         borderTop: "1px solid #222",
         opacity: 0.7,
+        backgroundColor: "black"
       }}
     >
-      <p>© 2026 IT Academy</p>
+      <p style={{color: '#e2b1b1ff'}}>© 2026 IT Academy</p>
     </footer>
   );
 };
